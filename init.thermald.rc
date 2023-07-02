@@ -1,0 +1,2 @@
+service thermald /system/bin/thermald
+    disable

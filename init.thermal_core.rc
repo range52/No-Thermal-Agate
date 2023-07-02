@@ -1,0 +1,5 @@
+service thermal_core /vendor/bin/thermal_core
+    disabled
+
+on property:ro.vendor.mtk_thermal_2_0=0
+    stop thermal_core

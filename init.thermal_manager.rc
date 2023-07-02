@@ -1,0 +1,2 @@
+service thermal_manager /vendor/bin/thermal_manager
+    disabled
